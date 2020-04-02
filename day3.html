@@ -1,0 +1,42 @@
+<!-- tables should be used to store data and information
+  that will be displayed in a tabular format.
+  Misused a lot in the '90s (see Space Jam website
+  Ignore tables for layout designs
+  Use for data that makes sense to display in a table
+
+
+  Many different elements used when making tables. This lecture will cover the basic necessities 
+  Most essential are tr and td, table row and table data
+  Have to populate table rows with table data
+  td is each individual cell
+  Wrap your th in thead
+  Wrap the body of your data in tbody
+  Wrap the bottom, if it's significant like totals or sum, in tfoot
+  Caption element specifices the caption or title of a table; more accessible for people with screen readers; should be the first child of the <table>
+  colspan and rowspan can be used to spread th or td across multiple rows
+-->
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables Demo</title>
+  </head>
+  <body>
+  <h1>Tables</h1>
+  <table>
+    <tr>
+      <th>Species</th>
+      <th>Diameter Meters</th>
+      <th>Diameter Feet</th>
+      <th>Tree Name</th>
+    </tr>
+    <tr>
+      <td>Thimmamma Marrimanu</td>
+      <td>11.62</td>
+      <td>38.1</td>
+    </tr>
+  </table>
+  </body>
+  </html>
